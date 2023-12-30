@@ -1,0 +1,19 @@
+// Online C compiler to run C program online
+//w.a.c.p for the addition three integer number without returing value.
+
+#include <stdio.h>
+void add (int n,int y,int z);
+void main()
+{
+    int a,b,c;
+    printf("eanter a valu for a,b,c:->");
+    scanf("%d%d%d",&a,&b,&c);
+ //by code with aman ks.
+    add (a,b,c);
+}
+void add (int n,int y,int z)
+{
+ int s;
+ s=n+y+z;
+    printf("sum=%d",s);
+}
